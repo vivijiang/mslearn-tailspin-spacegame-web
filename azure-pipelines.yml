@@ -46,3 +46,11 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()    
+
+
+# sonar-scanner \
+#   -Dsonar.projectKey=space-game-web-007 \
+#   -Dsonar.organization=vivijiang-github \
+#   -Dsonar.sources=. \
+#   -Dsonar.host.url=https://sonarcloud.io \
+#   -Dsonar.login=e5236b2ed1ae12e06ad9771ce0be02b6b2d0692b
