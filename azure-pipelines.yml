@@ -1,5 +1,6 @@
 pool:
-  vmImage: 'Ubuntu-16.04'
+  name: 'LearnPool'
+  # vmImage: 'Ubuntu-16.04'
   demands:
     - npm
 
